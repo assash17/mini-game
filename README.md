@@ -1,3 +1,5 @@
+https://jeong-seonghoon.github.io/mini-game/
+
 # mini-game
 This is mini web game project.
 
