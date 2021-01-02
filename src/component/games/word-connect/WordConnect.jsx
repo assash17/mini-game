@@ -17,6 +17,7 @@ function WordConnect() {
 
   const handleSubmit = useCallback(
     (e) => {
+      e.preventDefault();
       const lastWord = target.slice(target.length - 1, target.length);
       const firstWord = input.slice(0, 1);
       if (lastWord === firstWord) {
@@ -32,7 +33,7 @@ function WordConnect() {
       timer.current = setTimeout(() => {
         console.log('debounce');
         setResult(``);
-      }, 5000);
+      }, 2000);
 
       ref.current.focus();
     },
