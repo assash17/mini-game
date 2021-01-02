@@ -42,6 +42,7 @@ export default class NumberBaseballGame extends PureComponent {
   }
 
   handleSubmit(e) {
+    e.preventDefault();
     if (this.state.input.length !== 3) {
       return;
     }
