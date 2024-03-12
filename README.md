@@ -1,4 +1,4 @@
-https://jeong-seonghoon.github.io/mini-game/
+https://assash17.github.io/mini-game/
 
 # mini-game
 This is mini web game project.
